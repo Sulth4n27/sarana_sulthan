@@ -66,5 +66,3 @@ class PeminjamController extends Controller
      ->with(["title" => "Data peminjam"]);
     }
 };
-
-

@@ -19,8 +19,8 @@ class Barang extends Model
       return $this->belongsTo(peminjam::class);
     }
 
-    public function peminjaman():HasMany
+    public function pinjam():HasMany
     {
-        return $this->hasMany(peminjam::class);
+        return $this->hasMany(pinjam::class);
     }
 }
